@@ -20,7 +20,7 @@ A RESTful API built with ASP.NET Core 9.0 for tracking job applications. This ap
 - **Swagger/OpenAPI**: API documentation
 - **xUnit**: Testing framework
 - **Moq**: Mocking framework for tests
-- **FluentAssertions**: Fluent test assertions
+
 
 ## 📋 Prerequisites
 
