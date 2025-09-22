@@ -9,7 +9,7 @@ A RESTful API built with ASP.NET Core 9.0 for tracking job applications. This ap
 - **RESTful API**:  REST endpoints with proper HTTP status codes
 - **Swagger Documentation**:  API documentation
 - **In-Memory Database**: Quick setup with Entity Framework Core InMemory provider
-- **Unit Testing**: Comprehensive test suite with xUnit, Moq, and FluentAssertions
+- **Unit Testing**: Comprehensive test suite with xUnit, Moq
 - **Input Validation**: Data validation with attributes and model state
 
 ## 🛠️ Technology Stack
