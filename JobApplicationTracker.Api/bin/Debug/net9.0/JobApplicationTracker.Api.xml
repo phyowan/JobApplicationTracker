@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JobApplicationTracker.Api</name>
+    </assembly>
+    <members>
+        <member name="M:JobApplicationTracker.Api.Controllers.JobApplicationsController.GetJobApplications">
+            <summary>
+            Gets all job applications
+            </summary>
+            <returns>A list of job applications</returns>
+        </member>
+        <member name="M:JobApplicationTracker.Api.Controllers.JobApplicationsController.GetJobApplication(System.Int32)">
+            <summary>
+            Gets a specific job application by ID
+            </summary>
+            <param name="id">The job application ID</param>
+            <returns>The job application</returns>
+        </member>
+        <member name="M:JobApplicationTracker.Api.Controllers.JobApplicationsController.CreateJobApplication(JobApplicationTracker.Api.DTOs.CreateJobApplicationDto)">
+            <summary>
+            Creates a new job application
+            </summary>
+            <param name="createDto">The job application data</param>
+            <returns>The created job application</returns>
+        </member>
+        <member name="M:JobApplicationTracker.Api.Controllers.JobApplicationsController.UpdateJobApplication(System.Int32,JobApplicationTracker.Api.DTOs.UpdateJobApplicationDto)">
+            <summary>
+            Updates an existing job application
+            </summary>
+            <param name="id">The job application ID</param>
+            <param name="updateDto">The updated job application data</param>
+            <returns>The updated job application</returns>
+        </member>
+        <member name="M:JobApplicationTracker.Api.Controllers.JobApplicationsController.DeleteJobApplication(System.Int32)">
+            <summary>
+            Deletes a job application
+            </summary>
+            <param name="id">The job application ID</param>
+            <returns>No content if successful</returns>
+        </member>
+    </members>
+</doc>
