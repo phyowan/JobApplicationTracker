@@ -215,8 +215,6 @@ dotnet ./publish/JobApplicationTracker.Api.dll
 2. **curl**: Use command line to test endpoints
 3. **Browser**: Access Swagger UI for interactive testing
 
-### Sample curl Commands
-
 
 
 
